@@ -8,7 +8,7 @@ const schema = yup.object({
   email: yup.string().required("O email é Obrigatório!"),
   telefone: yup.string().required("O telefone é Obrigatório!"),
   comentario: yup.string().required("Não esqueça de informar aqui!"),
-  observacao: yup.string().required("O Sobrenome é Obrigatório!"),
+  observacao: yup.string().required("Não esqueça de informar aqui!"),
   data: yup.string().required("Não esqueça de informar a Data aqui!"),
 }).required();
 
